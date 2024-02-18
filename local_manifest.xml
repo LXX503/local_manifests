@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="lxx503"
+            fetch="https://github.com/LXX503"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/lava/LXX503" name="android_device_lava_LXX503" remote="lxx503" revision="A13" />
+ 
+ <!--Vendor -->
+ <project path="vendor/lava/LXX503" name="android_vendor_lava_LXX503" remote="lxx503" revision="master" />
+
+</manifest>
